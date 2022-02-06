@@ -98,12 +98,21 @@ INSERT INTO people (name) VALUES ("Heath Ledger"); -- 7
 INSERT INTO people (name) VALUES ("Aaron Eckhart"); -- 8
 INSERT INTO people (name) VALUES ("Maggie Gyllenhaal"); -- 9
 
+INSERT INTO roles (movie_id, person_id, character_name) VALUES (1, 2, "Bruce Wayne");
+INSERT INTO roles (movie_id, person_id, character_name) VALUES (1, 3, "Alfred");
+INSERT INTO roles (movie_id, person_id, character_name) VALUES (1, 4, "Ra's Al Ghul");
+INSERT INTO roles (movie_id, person_id, character_name) VALUES (1, 5, "Rachel Dawes");
+INSERT INTO roles (movie_id, person_id, character_name) VALUES (1, 6, "Commissioner Gordon");
 INSERT INTO roles (movie_id, person_id, character_name) VALUES (2, 2, "Bruce Wayne");
 INSERT INTO roles (movie_id, person_id, character_name) VALUES (2, 7, "Joker");
 INSERT INTO roles (movie_id, person_id, character_name) VALUES (2, 8, "Harvey Dent");
 INSERT INTO roles (movie_id, person_id, character_name) VALUES (2, 3, "Alfred");
 INSERT INTO roles (movie_id, person_id, character_name) VALUES (2, 9, "Rachel Dawes");
-
+INSERT INTO roles (movie_id, person_id, character_name) VALUES (3, 2, "Bruce Wayne");
+INSERT INTO roles (movie_id, person_id, character_name) VALUES (3, 6, "Commissioner Gordon");
+INSERT INTO roles (movie_id, person_id, character_name) VALUES (3, 10, "Bane");
+INSERT INTO roles (movie_id, person_id, character_name) VALUES (3, 11, "John Blake");
+INSERT INTO roles (movie_id, person_id, character_name) VALUES (3, 12, "Selina Kyle");
 -- The Dark Knight Rises
 INSERT INTO people (name) VALUES ("Tom Hardy"); -- 10
 INSERT INTO people (name) VALUES ("Joseph Gordon-Levitt"); -- 11

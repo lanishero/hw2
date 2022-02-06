@@ -121,8 +121,8 @@ people12 = People.new(values)
 people12.save
 
 values = { title: "Batman Begins", year_released: 2005, rated: "PG-13", person_id: people1.id }
-batman = Movie.new(values)
-batman.save
+movie1 = Movie.new(values)
+movie1.save
 
 values = { title: "The Dark Knight", year_released: 2008, rated: "PG-13", person_id: people1.id  }
 movie2 = Movie.new(values)
@@ -131,6 +131,54 @@ movie2.save
 values = { title: "The Dark Knight Rises", year_released: 2012, rated: "PG-13", person_id: people1.id  }
 movie3 = Movie.new(values)
 movie3.save
+
+values = { movie_id: movie1.id, person_id: people2.id, character_name: "Bruce Wayne" }
+role1 = Role.new(values)
+role1.save
+values = { movie_id: movie1.id, person_id: people3.id, character_name: "Alfred" }
+role2 = Role.new(values)
+role2.save
+values = { movie_id: movie1.id, person_id: people4.id, character_name: "Ra's Al Ghul" }
+role3 = Role.new(values)
+role3.save
+values = { movie_id: movie1.id, person_id: people5.id, character_name: "Rachel Dawes" }
+role4 = Role.new(values)
+role4.save
+values = { movie_id: movie1.id, person_id: people6.id, character_name: "Commissioner Gordon" }
+role5 = Role.new(values)
+role5.save
+
+values = { movie_id: movie2.id, person_id: people2.id, character_name: "Bruce Wayne" }
+role6 = Role.new(values)
+role6.save
+values = { movie_id: movie2.id, person_id: people7.id, character_name: "Joker" }
+role7 = Role.new(values)
+role7.save
+values = { movie_id: movie2.id, person_id: people8.id, character_name: "Harvey Dent" }
+role8 = Role.new(values)
+role8.save
+values = { movie_id: movie2.id, person_id: people3.id, character_name: "Alfred" }
+role9 = Role.new(values)
+role9.save
+values = { movie_id: movie2.id, person_id: people9.id, character_name: "Rachel Dawes" }
+role10 = Role.new(values)
+role10.save
+
+values = { movie_id: movie3.id, person_id: people2.id, character_name: "Bruce Wayne" }
+role11 = Role.new(values)
+role11.save
+values = { movie_id: movie3.id, person_id: people6.id, character_name: "Commissioner Gordon" }
+role12 = Role.new(values)
+role12.save
+values = { movie_id: movie3.id, person_id: people10.id, character_name: "Bane" }
+role13 = Role.new(values)
+role13.save
+values = { movie_id: movie3.id, person_id: people11.id, character_name: "John Blake" }
+role14 = Role.new(values)
+role14.save
+values = { movie_id: movie3.id, person_id: people12.id, character_name: "Selina Kyle" }
+role15 = Role.new(values)
+role15.save
 
 
 # Prints a header for the movies output
