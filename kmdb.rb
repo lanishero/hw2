@@ -195,8 +195,7 @@ puts ""
 movies = Movie.all
 
 for movie in movies
-    puts "#{movie.title} #{movie.year_released} #{movie.rated}"
- #   puts movie.title
+    puts "#{movie.title} #{movie.year_released} #{movie.rated} #{movie.people.name} "
 end
 
 # Prints a header for the cast output
@@ -207,3 +206,11 @@ puts ""
 
 # Query the cast data and loop through the results to display the cast output for each movie
 # TODO!
+# Batman Begins          Christian Bale        Bruce Wayne
+# Batman Begins          Michael Caine         Alfred
+# Batman Begins          Liam Neeson           Ra's Al Ghul
+# Batman Begins          Katie Holmes          Rachel Dawes
+# Batman Begins          Gary Oldman           Commissioner Gordon
+
+#{role.movies.title} #{role.person.name} 
+
