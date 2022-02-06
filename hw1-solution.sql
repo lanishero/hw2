@@ -85,6 +85,15 @@ INSERT INTO roles (movie_id, person_id, character_name) VALUES (1, 5, "Rachel Da
 INSERT INTO roles (movie_id, person_id, character_name) VALUES (1, 6, "Commissioner Gordon");
 
 -- The Dark Knight
+INSERT INTO people (name) VALUES ("Tom Hardy"); -- 10
+INSERT INTO people (name) VALUES ("Joseph Gordon-Levitt"); -- 11
+INSERT INTO people (name) VALUES ("Anne Hathaway"); -- 12
+INSERT INTO people (name) VALUES ("Christian Bale"); -- 2
+INSERT INTO people (name) VALUES ("Michael Caine"); -- 3
+INSERT INTO people (name) VALUES ("Liam Neeson");  -- 4
+INSERT INTO people (name) VALUES ("Katie Holmes");  -- 5
+INSERT INTO people (name) VALUES ("Gary Oldman");  -- 6
+
 INSERT INTO people (name) VALUES ("Heath Ledger"); -- 7
 INSERT INTO people (name) VALUES ("Aaron Eckhart"); -- 8
 INSERT INTO people (name) VALUES ("Maggie Gyllenhaal"); -- 9
