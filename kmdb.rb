@@ -188,6 +188,16 @@ puts ""
 
 # Query the movies data and loop through the results to display the movies output
 # TODO!
+# Batman Begins          2005           PG-13  Christopher Nolan
+# The Dark Knight        2008           PG-13  Christopher Nolan
+# The Dark Knight Rises  2012           PG-13  Christopher Nolan
+
+movies = Movie.all
+
+for movie in movies
+    puts "#{movie.title} #{movie.year_released} #{movie.rated}"
+ #   puts movie.title
+end
 
 # Prints a header for the cast output
 puts ""
