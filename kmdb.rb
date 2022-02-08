@@ -195,7 +195,7 @@ puts ""
 movies = Movie.all
 
 for movie in movies
-    puts "#{movie.title} #{movie.year_released} #{movie.rated} #{people1.name} "
+    puts "#{movie.title} | #{movie.year_released} | #{movie.rated} | #{people1.name} "
 end
 
 # Prints a header for the cast output
